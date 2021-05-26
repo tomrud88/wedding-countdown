@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif; 
+    background-image: url('./jeremy-wong-weddings-464ps_nOflw-unsplash.jpg');
+    background-position: center;
+    min-height: 100vh;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+}
+
+.title{
+    margin-right: -40px;
+    font-size: 4rem;
+    color: white;
+    margin-top:-10px
+}
+.big{
+    font-size: 5rem;
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+.countdown-container{
+    margin-right: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:240px;
+    margin-bottom:-180px;
+}
+
+.countEl{
+    padding-top:1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+.countEl span{
+    font-size: 25px;
+    padding: 0px 40px;
+    justify-content: center;
+    display: flex;
+}
